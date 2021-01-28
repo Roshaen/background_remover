@@ -2,7 +2,7 @@ import requests
 
 response = requests.post(
     'https://api.remove.bg/v1.0/removebg',
-    files={'image_file': open('E:\\PYTHON\\python projects\\image_background\\rishav.jpg', 'rb')},
+    files={'image_file': open('IMAGE LOCATION HERE', 'rb')},
     data={'size': 'auto'},
     headers={'X-Api-Key': 'j2D5GtLi4Grdj8QJLSxq8cBc'},
 )
